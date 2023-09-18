@@ -31,10 +31,10 @@ The Linux kernel implements a number of important architectural attributes. At a
 
 Each subsystem typically focuses on a distinct area of system management. Here are a few common Linux subsystems:
 
-    Core subsystems ( memeory management, scheduler, timers, ...)
-    Human interfaces (HID, sound subsystem, ...)
-    Networking interfaces (networking)
-    Storage interfaces (file systems, I2C, IIO, 1-wire, hwmon, usb, pci, ...)
+    - Core subsystems (memeory management, scheduler, timers, ...)
+    - Human interfaces (HID, sound subsystem, ...)
+    - Networking interfaces (networking)
+    - Storage interfaces (file systems, I2C, IIO, 1-wire, hwmon, usb, pci, ...)
     
 The I2C subsystem in Linux provides support for the I2C bus protocol, allowing Linux to interact with I2C devices. 
 
@@ -44,7 +44,7 @@ The I2C core is responsible for low-level I2C bus communication, the I2C client 
 
 For more details : "https://docs.kernel.org/i2c/index.html"
 
-# The MCP9808 client driver
+# The MCP9808 client driver:
 
 The MCP9808's I2C client driver is a character driver that will sends its data under /dev/* 
 
@@ -58,7 +58,7 @@ Common structs used in this driver:
     - probe/remove functions (the entry point in kernel, unloading module function)
     - read/write functions (for data read/write)
 
-# Compile and load
+# Compile and load:
 
 The MCP908's driver is a kernel module that can be compiled with the makefile present in this repository, but keep in mind to give it the correct kernel headers version.
 
