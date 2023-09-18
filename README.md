@@ -9,10 +9,12 @@ So in this repository we'll be discusting the I2C protocol, I2C susbsystem in li
 
 # What is I2C ?
 
-The Inter-Integrated Circuit (I2C) is so simple, master slave protocol 
+The Inter-Integrated Circuit (I2C) is so simple, master slave protocol. 
 
 
-![alt text](https://www.google.com/url?sa=i&url=https%3A%2F%2Fai.thestempedia.com%2Fdocs%2Fevive%2Fevive-technical-specifications%2Farduino-core-interface%2Fi2c-communication%2F&psig=AOvVaw15Zeecqcpk5ZCEhMovrbsq&ust=1695117507497000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCIjY9Pnys4EDFQAAAAAdAAAAABAE) 
+![alt_text](https://ai.thestempedia.com/wp-content/uploads/2022/08/I2C-Communication-How-It-Works.png)
+
+
 
 I2C is a half-duplex bidirectional synchronous serial bus, where several equipment, masters or slaves, can be connected to the bus.
 
